@@ -18,6 +18,9 @@ This project performs Exploratory Data Analysis (EDA) SLA). The analysis was con
 
 4. **Publisher Analysis**:
    - Identified active publishers and analyzed unique domains.
+### Quantitative Analysis
+- **Technical Indicators**: Calculated 30-day and 50-day Simple Moving Averages (SMA), Relative Strength Index (RSI), and Moving Average Convergence Divergence (MACD) for each company.
+- **Visualization**: Created plots to visualize stock prices and technical indicators.
 
 ## Requirements
 
@@ -27,6 +30,7 @@ This project performs Exploratory Data Analysis (EDA) SLA). The analysis was con
 - numpy: 1.26.4
 - seaborn: 0.13.2
 - nltk: 3.9.1
+- A-Lib (for technical indicators)
 
 ## How to Run
 
