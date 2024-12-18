@@ -15,3 +15,7 @@ This project consists of Jupyter Notebooks and scripts designed to perform vario
 
    - **Publisher Analysis**:
      - Identified active publishers and analyzed unique domains.
+2. **Quantitative Analysis**
+
+- **Technical Indicators**: Calculated 30-day and 50-day Simple Moving Averages (SMA), Relative Strength Index (RSI), and Moving Average Convergence Divergence (MACD) for each company.
+- **Visualization**: Created plots to visualize stock prices and technical indicators.
