@@ -1,9 +1,9 @@
-#Task 1
-#Exploratory Data Analysis (EDA) on Financial News and Stock Prices
+# Week 1 Tasks
+# EDA and Quantitative Analysis of Financial News and Stock Prices
 
 ## Overview
 
-This project performs Exploratory Data Analysis (EDA) SLA). The analysis was conducted using **Google Colab** for optimal performance.
+This project conducts an Exploratory Data Analysis (EDA) of financial news and stock prices, examining textual statistics and sentiment analysis. It includes the calculation of technical indicators like Simple Moving Averages (SMA) and performs a correlation analysis between news sentiment and stock returns, yielding a Pearson correlation coefficient of 0.017, indicating a weak relationship.
 
 
 ## Key Activities
@@ -19,21 +19,21 @@ This project performs Exploratory Data Analysis (EDA) SLA). The analysis was con
 
 4. **Publisher Analysis**:
    - Identified active publishers and analyzed unique domains.
-#Task 2
+# Task 2
 ### Quantitative Analysis
 - **Technical Indicators**: Calculated 30-day and 50-day Simple Moving Averages (SMA), Relative Strength Index (RSI), and Moving Average Convergence Divergence (MACD) for each company.
 - **Visualization**: Created plots to visualize stock prices and technical indicators.
 
-#Task 3
-1. Data Preparation:
+# Task 3
+1. **Data Preparation**
 	- Normalizes dates in news and stock datasets to ensure alignment.
 	- Performs sentiment analysis on news headlines to assign sentiment scores.
-2. Stock Movements:
+2. **Stock Movements**
 	- Computes daily returns to reflect stock price changes.
 3. **Correlation Analysis**
 	- Aggregates daily sentiment scores.
 	- Calculates the Pearson correlation coefficient between sentiment scores and daily stock returns.
-#Result: The Pearson correlation coefficient is 0.01726183605568182 for 'SentimentScore' and 'DailyReturn'.
+## Result: The Pearson correlation coefficient is 0.01726183605568182 for 'SentimentScore' and 'DailyReturn'.
 ## Requirements
 
 - Python 3.10.12
